@@ -229,7 +229,7 @@
 						if ($settings?.notificationEnabled ?? false) {
 							new Notification(`${title} | SoyuanGPT`, {
 								body: content,
-								icon: `${WEBUI_BASE_URL}/static/favicon.png`
+								icon: `/static/favicon.png`
 							});
 						}
 					}
@@ -375,7 +375,7 @@
 					if ($settings?.notificationEnabled ?? false) {
 						new Notification(`${data?.user?.name} (#${event?.channel?.name}) | SoyuanGPT`, {
 							body: data?.content,
-							icon: data?.user?.profile_image_url ?? `${WEBUI_BASE_URL}/static/favicon.png`
+							icon: data?.user?.profile_image_url ?? `/static/favicon.png`
 						});
 					}
 				}
