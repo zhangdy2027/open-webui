@@ -1119,6 +1119,7 @@
 												class="bg-transparent hover:bg-gray-100 text-gray-800 dark:text-white dark:hover:bg-gray-800 transition rounded-full p-1.5 outline-hidden focus:outline-hidden"
 												type="button"
 												aria-label="More"
+												style="visibility: hidden;"
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
